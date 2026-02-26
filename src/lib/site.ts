@@ -3,7 +3,7 @@ export const site = {
   tagline: "Praktis, rapi, siap pakai untuk Ramadan yang produktif.",
   description:
     "Landing page minimalis untuk produk digital Ramadan. Arahkan pengunjung ke lynk.id dan sediakan chat WhatsApp untuk tanya cepat.",
-  domain: "https://example.vercel.app", // ganti nanti setelah deploy
+  domain: "https://camaradery.vercel.app", // ganti nanti setelah deploy
 
   // WA: pakai format internasional tanpa +, contoh Indonesia: 62812xxxxxxx
 
@@ -72,7 +72,7 @@ export const site = {
       q: "Ada Paket bisa bundle dengan paket yang lain?",
       a: "Tergantung paket. ada beberapa paket yang bundle dengan paket ramadhan lainnya."
     },
-    
+
   ]
 };
 
