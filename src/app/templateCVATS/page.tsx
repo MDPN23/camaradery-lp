@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Container from "@/components/Container";
-import Footer from "@/components/Footer";
 
 const LYNK_URL = "https://lynk.id/camaradery/7lzj6qgvnqrg";
 const ORIGINAL_PRICE = 99_000;
@@ -176,8 +175,8 @@ function CTAButton({
         bg-gradient-to-r from-blue-600 via-blue-500 to-sky-500
         hover:from-blue-700 hover:via-blue-600 hover:to-sky-600
         hover:shadow-xl hover:shadow-blue-500/25 hover:scale-[1.02]
-        active:scale-[0.98]
-        ${size === "lg" ? "px-10 py-5 text-lg" : "px-8 py-4 text-base"}
+        active:scale-[0.98] w-full sm:w-auto
+        ${size === "lg" ? "px-6 py-4 text-base sm:px-10 sm:py-5 sm:text-lg" : "px-6 py-3.5 text-sm sm:px-8 sm:py-4 sm:text-base"}
         ${className}
       `}
         >
@@ -215,8 +214,8 @@ function FloatingCTA() {
     return (
         <div
             className={`fixed bottom-0 left-0 right-0 z-50 transition-all duration-500 ${show
-                    ? "translate-y-0 opacity-100"
-                    : "translate-y-full opacity-0 pointer-events-none"
+                ? "translate-y-0 opacity-100"
+                : "translate-y-full opacity-0 pointer-events-none"
                 }`}
         >
             <div className="bg-zinc-900/95 backdrop-blur-xl border-t border-zinc-700/50 py-3 px-4">
@@ -370,7 +369,7 @@ export default function TemplateCVATSPage() {
                                         ☝️ 20+ template — kurang dari Rp2.500 per template!
                                     </p>
 
-                                    <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
+                                    <div className="mt-8 flex flex-col items-center sm:items-start gap-4 sm:flex-row">
                                         <CTAButton size="lg" />
                                     </div>
 
@@ -628,7 +627,7 @@ export default function TemplateCVATSPage() {
                         </div>
 
                         {/* Mid CTA */}
-                        <div className="mt-14 text-center">
+                        <div className="mt-14 flex flex-col items-center">
                             <CTAButton size="lg" />
                             <p className="mt-3 text-sm text-zinc-500">⚡ Akses instan — langsung download semua template</p>
                         </div>
@@ -815,7 +814,7 @@ export default function TemplateCVATSPage() {
                             </p>
 
                             {/* Big price */}
-                            <div className="mt-10 inline-flex flex-col items-center bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl px-10 py-8">
+                            <div className="mt-10 inline-flex flex-col items-center bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl px-5 py-6 sm:px-10 sm:py-8 w-full max-w-md sm:w-auto sm:max-w-none">
                                 <div className="flex items-baseline gap-3">
                                     <span className="text-5xl font-extrabold text-white md:text-6xl">
                                         {rp(SALE_PRICE)}
@@ -873,7 +872,6 @@ export default function TemplateCVATSPage() {
                 </section>
             </main>
 
-            <Footer />
             <FloatingCTA />
         </div>
     );
