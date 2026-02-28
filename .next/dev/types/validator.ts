@@ -36,10 +36,46 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 }
 
 
+// Validate ../../../src/app/keuanganPernikahan/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/keuanganPernikahan">> = Specific
+  const handler = {} as typeof import("../../../src/app/keuanganPernikahan/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/menuSahur/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/menuSahur">> = Specific
+  const handler = {} as typeof import("../../../src/app/menuSahur/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific
   const handler = {} as typeof import("../../../src/app/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/templateCVATS/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/templateCVATS">> = Specific
+  const handler = {} as typeof import("../../../src/app/templateCVATS/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/templateKeuanganBisnis/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/templateKeuanganBisnis">> = Specific
+  const handler = {} as typeof import("../../../src/app/templateKeuanganBisnis/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -51,10 +87,37 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 
 
 
+// Validate ../../../src/app/keuanganPernikahan/layout.tsx
+{
+  type __IsExpected<Specific extends LayoutConfig<"/keuanganPernikahan">> = Specific
+  const handler = {} as typeof import("../../../src/app/keuanganPernikahan/layout.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/layout.tsx
 {
   type __IsExpected<Specific extends LayoutConfig<"/">> = Specific
   const handler = {} as typeof import("../../../src/app/layout.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/templateCVATS/layout.tsx
+{
+  type __IsExpected<Specific extends LayoutConfig<"/templateCVATS">> = Specific
+  const handler = {} as typeof import("../../../src/app/templateCVATS/layout.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/templateKeuanganBisnis/layout.tsx
+{
+  type __IsExpected<Specific extends LayoutConfig<"/templateKeuanganBisnis">> = Specific
+  const handler = {} as typeof import("../../../src/app/templateKeuanganBisnis/layout.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

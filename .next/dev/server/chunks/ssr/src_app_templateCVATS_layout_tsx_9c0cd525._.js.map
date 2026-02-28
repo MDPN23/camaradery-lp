@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/xynerva/project/camaradery-lp/src/app/templateCVATS/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\n\nexport const metadata: Metadata = {\n    title: \"20+ Template CV ATS-Friendly Profesional 2026 | Camaradery\",\n    description:\n        \"Dapatkan 20+ template CV ATS-Friendly siap pakai! Desain profesional, lolos screening ATS, mudah diedit. Tingkatkan peluang diterima kerja impianmu sekarang!\",\n    openGraph: {\n        title: \"20+ Template CV ATS-Friendly Profesional 2026\",\n        description:\n            \"Template CV yang lolos screening ATS. 20+ desain profesional, siap pakai, mudah diedit. Investasi karir terbaik Anda!\",\n        images: [{ url: \"/templateCVATS/cv-grid.png\", width: 1200, height: 630 }],\n        locale: \"id_ID\",\n        type: \"website\",\n    },\n};\n\nexport default function TemplateCVATSLayout({\n    children,\n}: Readonly<{ children: React.ReactNode }>) {\n    return <>{children}</>;\n}\n"],"names":[],"mappings":";;;;;;;;AAEO,MAAM,WAAqB;IAC9B,OAAO;IACP,aACI;IACJ,WAAW;QACP,OAAO;QACP,aACI;QACJ,QAAQ;YAAC;gBAAE,KAAK;gBAA8B,OAAO;gBAAM,QAAQ;YAAI;SAAE;QACzE,QAAQ;QACR,MAAM;IACV;AACJ;AAEe,SAAS,oBAAoB,EACxC,QAAQ,EAC8B;IACtC,qBAAO;kBAAG;;AACd"}}]
+}

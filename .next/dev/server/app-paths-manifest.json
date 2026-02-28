@@ -1,3 +1,4 @@
 {
-  "/page": "app/page.js"
+  "/templateCVATS/page": "app/templateCVATS/page.js",
+  "/templateKeuanganBisnis/page": "app/templateKeuanganBisnis/page.js"
 }

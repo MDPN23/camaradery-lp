@@ -10,7 +10,7 @@ const site = {
     brand: "Digital Ramadhan Tracker",
     tagline: "Praktis, rapi, siap pakai untuk Ramadan yang produktif.",
     description: "Landing page minimalis untuk produk digital Ramadan. Arahkan pengunjung ke lynk.id dan sediakan chat WhatsApp untuk tanya cepat.",
-    domain: "https://example.vercel.app",
+    domain: "https://camaradery.vercel.app",
     // WA: pakai format internasional tanpa +, contoh Indonesia: 62812xxxxxxx
     // Link lynk.id kamu
     lynkUrl: "https://lynk.id/camaradery/p2r0y89k3oj6",
