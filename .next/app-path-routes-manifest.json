@@ -4,5 +4,8 @@
   "/favicon.ico/route": "/favicon.ico",
   "/menuSahur/page": "/menuSahur",
   "/page": "/",
-  "/sitemap.xml/route": "/sitemap.xml"
+  "/ramadhanTracker/page": "/ramadhanTracker",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/templateCVATS/page": "/templateCVATS",
+  "/templateKeuanganBisnis/page": "/templateKeuanganBisnis"
 }

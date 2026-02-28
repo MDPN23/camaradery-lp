@@ -53,10 +53,28 @@
       "namedRegex": "^/menuSahur(?:/)?$"
     },
     {
+      "page": "/ramadhanTracker",
+      "regex": "^/ramadhanTracker(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ramadhanTracker(?:/)?$"
+    },
+    {
       "page": "/sitemap.xml",
       "regex": "^/sitemap\\.xml(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/templateCVATS",
+      "regex": "^/templateCVATS(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/templateCVATS(?:/)?$"
+    },
+    {
+      "page": "/templateKeuanganBisnis",
+      "regex": "^/templateKeuanganBisnis(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/templateKeuanganBisnis(?:/)?$"
     }
   ],
   "dataRoutes": [],

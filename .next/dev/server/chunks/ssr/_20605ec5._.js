@@ -7,16 +7,15 @@ __turbopack_context__.s([
     ()=>site
 ]);
 const site = {
-    brand: "Digital Ramadhan Tracker",
-    tagline: "Praktis, rapi, siap pakai untuk Ramadan yang produktif.",
-    description: "Landing page minimalis untuk produk digital Ramadan. Arahkan pengunjung ke lynk.id dan sediakan chat WhatsApp untuk tanya cepat.",
+    brand: "Camaradery",
+    tagline: "Partner Kebutuhan Digital Anda",
+    description: "Camaradery menyediakan berbagai produk digital berkualitas — template, tools, dan resource siap pakai untuk kebutuhan bisnis, karir, dan produktivitas Anda.",
     domain: "https://camaradery.vercel.app",
-    // WA: pakai format internasional tanpa +, contoh Indonesia: 62812xxxxxxx
-    // Link lynk.id kamu
-    lynkUrl: "https://lynk.id/camaradery/p2r0y89k3oj6",
+    // Link lynk.id utama
+    lynkUrl: "https://lynk.id/camaradery",
     // CTA label
-    ctaPrimary: "Yuk Lihat Produk!",
-    // Konten utama (bisa kamu edit kapan aja)
+    ctaPrimary: "Lihat Semua Produk",
+    // Highlights (used by ValueCards component)
     highlights: [
         {
             title: "Siap pakai",
@@ -35,6 +34,7 @@ const site = {
             desc: "Nyaman dipakai di HP maupun laptop. Akses kapan pun."
         }
     ],
+    // Konten Ramadhan Tracker (dipakai di halaman /ramadhanTracker)
     contents: [
         "Template pengisian sudah melakukan puasa",
         "Template checklist sholat lima waktu",

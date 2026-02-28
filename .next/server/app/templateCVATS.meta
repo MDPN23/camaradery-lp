@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/templateCVATS/layout,_N_T_/templateCVATS/page,_N_T_/templateCVATS"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/templateCVATS/__PAGE__",
+    "/templateCVATS",
+    "/_index",
+    "/_head"
+  ]
+}

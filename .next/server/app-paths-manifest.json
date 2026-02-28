@@ -4,5 +4,8 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/menuSahur/page": "app/menuSahur/page.js",
   "/page": "app/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+  "/ramadhanTracker/page": "app/ramadhanTracker/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/templateCVATS/page": "app/templateCVATS/page.js",
+  "/templateKeuanganBisnis/page": "app/templateKeuanganBisnis/page.js"
 }
